@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChartView">
+        <!-- string -->
+        <attr name="cv_valueFormat" format="string" />
+        <attr name="cv_yAxisMaxText" format="string" />
+
+        <!-- integer -->
+        <attr name="cv_visibleCount" format="integer" />
+        <attr name="cv_animatorDuration" format="integer" />
+
+        <!-- dimension -->
+        <attr name="cv_axisTextSize" format="dimension" />
+
+        <attr name="cv_bubbleArrowHeight" format="dimension" />
+        <attr name="cv_bubbleArrowWidth" format="dimension" />
+        <attr name="cv_bubbleGap" format="dimension" />
+        <attr name="cv_bubbleHeight" format="dimension" />
+        <attr name="cv_bubbleLineWidth" format="dimension" />
+        <attr name="cv_bubbleRadius" format="dimension" />
+        <attr name="cv_bubbleTextSize" format="dimension" />
+        <attr name="cv_bubbleWidth" format="dimension" />
+
+        <attr name="cv_chartToRight" format="dimension" />
+        <attr name="cv_clickRadius" format="dimension" />
+        <attr name="cv_curveWidth" format="dimension" />
+        <attr name="cv_limitDashGap" format="dimension" />
+        <attr name="cv_limitDashWidth" format="dimension" />
+        <attr name="cv_lineWidth" format="dimension" />
+        <attr name="cv_maxRadius" format="dimension" />
+        <attr name="cv_midRadius" format="dimension" />
+        <attr name="cv_minRadius" format="dimension" />
+        <attr name="cv_xaAxisToTop" format="dimension" />
+
+        <!-- color -->
+        <attr name="cv_axisTextColor" format="color" />
+        <attr name="cv_borderColor" format="color" />
+        <attr name="cv_bubbleBgColor" format="color" />
+        <attr name="cv_bubbleBorderColor" format="color" />
+        <attr name="cv_limitColor" format="color" />
+        <attr name="cv_verticalColor" format="color" />
+
+        <!-- float -->
+        <attr name="cv_shadeTopAlpha" format="float" />
+        <attr name="cv_shadeBottomAlpha" format="float" />
+        <attr name="cv_circleAlpha" format="float" />
+
+        <attr name="cv_timeInterpolator" format="enum">
+            <enum name="accelerateInterpolator" value="0" />
+            <enum name="decelerateInterpolator" value="1" />
+            <enum name="accelerateDecelerateInterpolator" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
